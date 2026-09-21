@@ -1,0 +1,26 @@
+{
+	"main": {
+		"checkinterval": 300,
+		"description": "cmp dotfiles: hosts + packages + devshells + home activations (main)",
+		"emailoverride": "",
+		"enabled": 1,
+		"enableemail": false,
+		"flake": "github:DigitalBrewStudios/hydra-jobset-testing",
+		"hidden": false,
+		"keepnr": 5,
+		"schedulingshares": 100,
+		"type": 1,
+		"inputs": {
+			"src": {
+				"type": "github_refs",
+				"value": "DigitalBrewStudios hydra-jobset-testing main .",
+				"emailresponsible": 0
+			},
+			"pulls": {
+				"type": "githubpulls",
+				"value": "DigitalBrewStudios hydra-jobset-testing",
+				"emailresponsible": 0
+			}
+		}
+	}
+}
