@@ -1,7 +1,7 @@
 {
-	"main": {
+	"testing": {
 		"checkinterval": 300,
-		"description": "cmp dotfiles: hosts + packages + devshells + home activations (main)",
+		"description": "Master Branch",
 		"emailoverride": "",
 		"enabled": 1,
 		"enableemail": false,
@@ -17,8 +17,10 @@
 				"emailresponsible": 0
 			},
 			"pulls": {
-				"type": "githubpulls",
-				"value": "DigitalBrewStudios hydra-jobset-testing",
+				"displayName": "pr",
+				"description": "Github Pull Request",
+				"type": "github_refs",
+				"value": "DigitalBrewStudios hydra-jobset-testing pulls .",
 				"emailresponsible": 0
 			}
 		}
