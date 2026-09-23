@@ -11,12 +11,12 @@
     flake-parts.lib.mkFlake { inherit inputs; } {
       flake.hydraJobs.aarch64-darwin = {
         test = builtins.derivation {
-          name = "asdhaejhfdhsfdjsnf";
+          name = "asdhaejhfdhfgjhfsjdfhsjkgbsvfbdhsbfvhsdfvsfdjsnf";
           system = "aarch64-darwin";
           builder = "/bin/sh";
           args = [
             "-c"
-            "echo 'Hello from a raw dshfsafas!' > $out"
+            "echo 'Hello from a raw dshfdfbsdjbfndshjfbdssafas fefbesdfdsfdshf!' > $out"
           ];
         };
       };
